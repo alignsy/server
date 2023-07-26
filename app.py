@@ -16,5 +16,4 @@ def method_not_allowed(error):
     return jsonify(error='Method not allowed'), 405
 
 if __name__ == '__main__':
-    PORT = 3000
-    app.run(port=PORT,debug=True)
+    app.run()

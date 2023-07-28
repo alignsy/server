@@ -8,7 +8,7 @@ url = "https://script.google.com/macros/s/AKfycby76jWCa-RJC8dPYtV6Rz8w_IRTHEC-lr
 
 @app.route('/')
 def home():
-    return "hello home!"
+    return "hello alignsy!"
 
 @app.route('/join-waitlist', methods=['POST'])
 def join_waitlist():

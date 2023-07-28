@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
 import requests
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 url = "https://script.google.com/macros/s/AKfycbwfirVKiSEFtnn6Ac7KCf17b4P_Na5N3joeCnm2GpuhDSSpC4o56RZxj-vV8DDHBrB2cA/exec"
 
 @app.route('/')
